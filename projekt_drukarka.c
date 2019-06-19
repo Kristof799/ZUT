@@ -217,7 +217,7 @@ y=(A*pow(x,3))+(B*(pow(x,2)))+ (C*x) +D;
  lcd.setCursor(0,0); /*pierwsza linia*/ 
  lcd.print(y); 
  lcd.setCursor(0,2); 
- lcd.print("grzesiu pedal"); 
+ lcd.print("Temp Grza "); 
  lcd.setCursor(0,3); 
- lcd.print("Kalciatore"); 
+ lcd.print("Aktualna Temp"); 
 if(i<50) { i++; digitalWrite(10,1); } else { digitalWrite(10,0); } delay(100); }
